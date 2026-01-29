@@ -1,12 +1,16 @@
 package com.life.tracker.api.beckend.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
+import lombok.Getter;
 import org.hibernate.annotations.IdGeneratorType;
 
+import javax.xml.validation.Schema;
 import java.time.LocalDate;
-
+@Getter
+@Data
 @Entity
-@Table(name="education_record")
+@Table(name="education_record",schema = "life_tracker")
 public class EducationEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
