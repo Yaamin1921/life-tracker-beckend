@@ -1,6 +1,7 @@
 package com.life.tracker.api.beckend.service;
 
 import com.life.tracker.api.beckend.entity.EducationEntity;
+import com.life.tracker.api.beckend.entity.EducationSummary;
 import com.life.tracker.api.beckend.entity.EducationType;
 import com.life.tracker.api.beckend.repository.EducationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,10 @@ public class EducationService {
     }
     public List<EducationEntity> getRecordsByTypeTimeline(){
         return educationRepository.findAllByOrderByStartDate();
+    }
+    public EducationSummary getEducationSummary(){
+        return  educationRepository.getRecordsSummary();
+
     }
 
 
