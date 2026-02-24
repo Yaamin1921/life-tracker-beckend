@@ -3,6 +3,7 @@ package com.life.tracker.api.beckend.resource;
 import com.life.tracker.api.beckend.entity.EducationEntity;
 import com.life.tracker.api.beckend.entity.EducationSummary;
 import com.life.tracker.api.beckend.entity.EducationType;
+import com.life.tracker.api.beckend.representation.EducationRecordRequest;
 import com.life.tracker.api.beckend.service.EducationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,6 +18,12 @@ import java.util.List;
 public class EducationResource {
     @Autowired
     private EducationService educationService;
+
+    @PostMapping
+    public ResponseEntity<List<EducationEntity>> create(
+            @RequestBody List<EducationRecordRequest> requests) {
+        return ResponseEntity.ok(educationService.create(requests));
+    }
 
     @GetMapping
     public ResponseEntity<List<EducationEntity>> getAllRecords(){
@@ -36,6 +43,5 @@ public class EducationResource {
     public ResponseEntity<EducationSummary> getSummary(){
         return  ResponseEntity.ok(educationService.getEducationSummary());
     }
-
 
 }
