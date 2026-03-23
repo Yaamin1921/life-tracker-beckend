@@ -1,10 +1,10 @@
-package com.life.tracker.api.beckend.resource;
+package com.education.tracker.service.resource;
 
-import com.life.tracker.api.beckend.entity.EducationEntity;
-import com.life.tracker.api.beckend.entity.EducationSummary;
-import com.life.tracker.api.beckend.entity.EducationType;
-import com.life.tracker.api.beckend.representation.EducationRecordRequest;
-import com.life.tracker.api.beckend.service.EducationService;
+import com.education.tracker.service.entity.EducationEntity;
+import com.education.tracker.service.entity.EducationSummary;
+import com.education.tracker.service.entity.EducationType;
+import com.education.tracker.service.representation.EducationRecordRequest;
+import com.education.tracker.service.service.EducationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

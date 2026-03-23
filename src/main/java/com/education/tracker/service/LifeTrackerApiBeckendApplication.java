@@ -1,4 +1,4 @@
-package com.life.tracker.api.beckend;
+package com.education.tracker.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

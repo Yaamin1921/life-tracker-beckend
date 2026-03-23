@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com</groupId>
-	<artifactId>life-tracker-api-beckend</artifactId>
+	<artifactId>education-tracker-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>life-tracker-api-beckend</name>
 	<description>life progress tracker</description>

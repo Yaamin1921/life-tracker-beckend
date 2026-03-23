@@ -1,10 +1,10 @@
-package com.life.tracker.api.beckend.service;
+package com.education.tracker.service.service;
 
-import com.life.tracker.api.beckend.entity.EducationEntity;
-import com.life.tracker.api.beckend.entity.EducationSummary;
-import com.life.tracker.api.beckend.entity.EducationType;
-import com.life.tracker.api.beckend.repository.EducationRepository;
-import com.life.tracker.api.beckend.representation.EducationRecordRequest;
+import com.education.tracker.service.entity.EducationEntity;
+import com.education.tracker.service.entity.EducationSummary;
+import com.education.tracker.service.entity.EducationType;
+import com.education.tracker.service.repository.EducationRepository;
+import com.education.tracker.service.representation.EducationRecordRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
