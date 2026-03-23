@@ -1,4 +1,4 @@
-package com.life.tracker.api.beckend.representation;
+package com.education.tracker.service.representation;
 
 import lombok.Data;
 

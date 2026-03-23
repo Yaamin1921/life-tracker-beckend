@@ -1,7 +1,7 @@
-package com.life.tracker.api.beckend.repository;
+package com.education.tracker.service.repository;
 
-import com.life.tracker.api.beckend.entity.EducationEntity;
-import com.life.tracker.api.beckend.entity.EducationSummary;
+import com.education.tracker.service.entity.EducationEntity;
+import com.education.tracker.service.entity.EducationSummary;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

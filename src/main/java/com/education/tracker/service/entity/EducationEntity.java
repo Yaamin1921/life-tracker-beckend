@@ -1,4 +1,4 @@
-package com.life.tracker.api.beckend.entity;
+package com.education.tracker.service.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

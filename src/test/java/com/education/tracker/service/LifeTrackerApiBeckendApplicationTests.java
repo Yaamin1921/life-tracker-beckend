@@ -1,4 +1,4 @@
-package com.life.tracker.api.beckend;
+package com.education.tracker.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
